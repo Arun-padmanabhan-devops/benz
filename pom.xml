@@ -69,4 +69,13 @@
         </plugins>
     </build>
 
+    <!-- ✅ Add this block just before closing </project> -->
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/Arun-padmanabhan-devops/benz</url>
+        </repository>
+    </distributionManagement>
+
 </project>
